@@ -163,8 +163,11 @@ nav{
 
     }
     
-    span{
-margin: 0px 20px;
+     nav span{
+margin: 0px 30px;
+    }
+    #list p{
+        font-size: 10px
     }
     
 }
