@@ -32,6 +32,8 @@ else{
 
 // EQUAL TO FUNCTION
 function evaluate(){
+      let aud=new Audio("./kick-bass.mp3");
+    aud.play();
     let ans=eval(equation);
     $('#display h3').text(ans);
     equation=$('#display h3')[0].innerHTML;
